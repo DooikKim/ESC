@@ -1,0 +1,181 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.wear",
+    "module": "wear",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId:": "6861776"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.2.4"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "constraintlayout",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-1.1.0.aar",
+          "url": "wear-1.1.0.aar",
+          "size": 266008,
+          "sha512": "00442b4de915b18e4e9b87a0d7f53a0e5d6bd6bcfd08011d26e09987f3940d32ea2f661cf13a85d2a2779bca6c1a65f99eb7ce4c2d6b1e2ae2644f67bca91c39",
+          "sha256": "25ba60d7b8468fe984a34bfcec7d25db8e49ea02aa0df04251534643b90cecba",
+          "sha1": "99847811f5f0f49bb10299fb1ab8f520b0928761",
+          "md5": "5e6388a0a13df9e8f1fb6c4f099f2d0d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.2.4"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "constraintlayout",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wear-1.1.0.aar",
+          "url": "wear-1.1.0.aar",
+          "size": 266008,
+          "sha512": "00442b4de915b18e4e9b87a0d7f53a0e5d6bd6bcfd08011d26e09987f3940d32ea2f661cf13a85d2a2779bca6c1a65f99eb7ce4c2d6b1e2ae2644f67bca91c39",
+          "sha256": "25ba60d7b8468fe984a34bfcec7d25db8e49ea02aa0df04251534643b90cecba",
+          "sha1": "99847811f5f0f49bb10299fb1ab8f520b0928761",
+          "md5": "5e6388a0a13df9e8f1fb6c4f099f2d0d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wear-1.1.0-sources.jar",
+          "url": "wear-1.1.0-sources.jar",
+          "size": 111218,
+          "sha512": "81f6c09016eae8025aec1024b84b37d1259df27d1b97d8a40ccb0dfbece9bae517e9e940addcc5765e6660f9918def48bfbc55d61012d9b4bb8ff91c9a19996b",
+          "sha256": "1692c25fc465e97ec8a1a90030464ae28f9ff2b0a5fabaa52b95147e3d577373",
+          "sha1": "049501c7355bd3c8afa82f1caa5f294153b8990a",
+          "md5": "3b44b6540554021cd9a07f4effe73464"
+        }
+      ]
+    }
+  ]
+}
