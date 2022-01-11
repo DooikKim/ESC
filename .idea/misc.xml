@@ -3,12 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/HANYANG/EOS_Advance__/ESC/app/src/main/res/layout/activity_login.xml" value="1.4588815789473684" />
+        <entry key="..\:/HANYANG/EOS_Advance__/ESC/app/src/main/res/layout/activity_main.xml" value="0.6535714285714286" />
+        <entry key="..\:/HANYANG/EOS_Advance__/ESC/app/src/main/res/layout/login.xml" value="0.6464285714285715" />
+        <entry key="..\:/HANYANG/EOS_Advance__/ESC/app/src/main/res/layout/problem.xml" value="1.881578947368421" />
+        <entry key="..\:/HANYANG/EOS_Advance__/ESC/app/src/main/res/layout/signin.xml" value="0.6464285714285715" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ESC/app/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ESC/app/src/main/res/layout/problem.xml" value="0.36614583333333334" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:id="@+id/LOGIN3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SIGN - IN"
+            android:textSize="28sp"
+            tools:layout_editor_absoluteX="149dp"
+            tools:layout_editor_absoluteY="141dp" />
+
+        <EditText
+            android:id="@+id/et_grade"
+            android:layout_width="57dp"
+            android:layout_height="37dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="177dp"
+            tools:layout_editor_absoluteY="548dp" />
+
+        <TextView
+            android:id="@+id/text_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아이디(e-mail)"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="192dp" />
+
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_width="306dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:hint="아이디를 입력해주세요.(필수)"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="220dp" />
+
+        <TextView
+            android:id="@+id/text_pw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비밀번호"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="273dp" />
+
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_width="304dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="영문/숫자를 조합, 6자 이상(필수)"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+        <TextView
+            android:id="@+id/text_pwpw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비밀번호 확인"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="351dp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="304dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="비밀번호 입력 확인(필수)"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="380dp" />
+
+        <TextView
+            android:id="@+id/text_pn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전화번호"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="432dp" />
+
+        <EditText
+            android:id="@+id/et_phonenum1"
+            android:layout_width="71dp"
+            android:layout_height="37dp"
+            android:ems="10"
+            android:hint="010 "
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="461dp" />
+
+        <EditText
+            android:id="@+id/et_phonenum2"
+            android:layout_width="93dp"
+            android:layout_height="36dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="462dp" />
+
+        <TextView
+            android:id="@+id/text_school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="재학"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="518dp" />
+
+        <EditText
+            android:id="@+id/et_school"
+            android:layout_width="93dp"
+            android:layout_height="36dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="549dp" />
+
+        <TextView
+            android:id="@+id/text_grade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="학년"
+            tools:layout_editor_absoluteX="249dp"
+            tools:layout_editor_absoluteY="564dp" />
+
+        <Button
+            android:id="@+id/bt_signin"
+            android:layout_width="306dp"
+            android:layout_height="43dp"
+            android:background="#0067A3"
+            android:backgroundTint="#0067A3"
+            android:text="회원가입 하기"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="624dp" />
+
+        <EditText
+            android:id="@+id/et_phonenum3"
+            android:layout_width="93dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="273dp"
+            tools:layout_editor_absoluteY="461dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="317dp"
+            android:layout_height="127dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/KakaoTalk_20211204_211521267"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="14dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
