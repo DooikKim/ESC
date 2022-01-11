@@ -8,6 +8,8 @@
         <entry key="..\:/HANYANG/EOS_Advance__/ESC/app/src/main/res/layout/login.xml" value="0.6464285714285715" />
         <entry key="..\:/HANYANG/EOS_Advance__/ESC/app/src/main/res/layout/problem.xml" value="1.881578947368421" />
         <entry key="..\:/HANYANG/EOS_Advance__/ESC/app/src/main/res/layout/signin.xml" value="0.6464285714285715" />
+        <entry key="..\:/Users/000gi/ESC/app/src/main/res/layout/activity_solution.xml" value="0.2" />
+        <entry key="..\:/Users/000gi/ESC/app/src/main/res/layout/solution.xml" value="0.23097826086956522" />
         <entry key="..\:/Users/power/ESC/app/src/main/res/layout/activity_signin.xml" value="0.264" />
         <entry key="..\:/Users/power/ESC/app/src/main/res/layout/login.xml" value="0.264" />
         <entry key="..\:/Users/power/ESC/app/src/main/res/layout/problem.xml" value="0.2047008547008547" />
@@ -17,7 +19,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
