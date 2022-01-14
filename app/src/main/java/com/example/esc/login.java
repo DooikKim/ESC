@@ -44,6 +44,14 @@ public class login extends AppCompatActivity {
                 signIn(email, password);
             }
         });
+        signin.setOnClickListener(new View.OnClickListener() {//회원가입 버튼이 눌러졌을때
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(login.this, com.example.esc.signin.class);//회원가입 activity로 이동
+                startActivity(intent);
+            }
+        });
     }
     private void signIn(String email, String password) {
         if(!validateForm()) {
@@ -53,7 +61,7 @@ public class login extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()) {
-                    Intent intent = new Intent(login.this, MainActivity.class);
+                    Intent intent = new Intent(login.this, MainActivity.class);//mainActivity로 이동
                     intent.putExtra("id", email);//intent에 id를 넘겨줌
                     startActivity(intent);
                 } else {
