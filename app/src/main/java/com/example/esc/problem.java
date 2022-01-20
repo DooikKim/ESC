@@ -1,6 +1,8 @@
 package com.example.esc;
 
-public class problem {
+import android.widget.EditText;
 
+public class problem {
+    EditText time;
 
 }
