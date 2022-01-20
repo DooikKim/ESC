@@ -5,6 +5,7 @@ import android.widget.EditText;
 
 public class problem {
     EditText time;
-    CheckBox check;
+    CheckBox checkbox;
+    CheckBox checkbox2;
 
 }
